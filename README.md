@@ -1,3 +1,5 @@
+<img width="891" alt="image" src="https://github.com/samaya007/kafle-samaya-AJAX/assets/121986334/241f2329-39b6-45e7-bcd4-861674700357">
+
 ## AJAX Application
 In this project I'ved used AJAX to fetch data from external APIs, and update the information accordingly.
 
