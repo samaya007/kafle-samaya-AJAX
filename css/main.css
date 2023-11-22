@@ -23,11 +23,24 @@ p {
   font-size: 16px;
 }
 
+li {
+  list-style-type: none;
+  padding: 10px;
+  margin-bottom: 10px;
+  border-radius: 8px;
+  background-color: aqua;
+  transition: background-color 0.3s ease-in-out;
+}
+
+li:hover {
+  background-color: lightblue;
+}
+
 model-viewer {
   width: auto;
   max-width: 1200px;
   height: 700px;
-  background-color: #efefef;
+  background-image: linear-gradient(45deg, hsl(240, 100%, 20%) 0%, hsl(289, 100%, 21%) 11%, hsl(315, 100%, 27%) 22%, hsl(329, 100%, 36%) 33%, hsl(337, 100%, 43%) 44%, hsl(357, 91%, 59%) 56%, hsl(17, 100%, 59%) 67%, hsl(34, 100%, 53%) 78%, hsl(45, 100%, 50%) 89%, hsl(55, 100%, 50%) 100%);
   margin: 0 auto;
 }
 
